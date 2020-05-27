@@ -1,0 +1,28 @@
+{
+	"name": "DBExt",
+	"version": "0.0.1",
+	"author": [
+		"Art Baltai"
+	],
+	"license-name": "GPL-2.0-only",
+	"url": "https://www.mediawiki.org/wiki/Extension:DBExt",
+	"descriptionmsg": "DBExt-test",
+	"type": "other",
+	"Hooks": {
+		"AddDbEngineProvider": "DBExtHooks::addDbEngineProvider"
+	},
+	"MessagesDirs": {
+		"CreditsSource": [
+			"i18n"
+		]
+	},
+	"Actions": {
+		"installer": [ "DBExtInstaller::inject" ]
+	},
+	"AutoloadClasses": {
+		"DBExtAction": "includes/DBExtAction.php",
+		"DBExtHooks": "includes/DBExtHooks.php",
+		"DBExtInstaller": "includes/DBExtInstaller.php"
+	},
+	"manifest_version": 1
+}
