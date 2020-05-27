@@ -4,7 +4,7 @@
 	"author": [
 		"Art Baltai"
 	],
-	"license": "GPL-2.0-or-later",
+	"license": ["GPL-2.0-or-later"],
 	"url": "https://www.mediawiki.org/wiki/Extension:DBExt",
 	"descriptionmsg": "DBExt-test",
 	"type": "other",
